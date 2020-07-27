@@ -15,7 +15,7 @@ public partial class Antibiotic_LoginPage : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        SqlConnection con = new SqlConnection(@"Data Source=3F-54-94\SQLEXPRESS;Initial Catalog=Antibiotic;Persist Security Info=True;User ID=sa;Password=1234");
+        SqlConnection con = new SqlConnection(@"Data Source=\SQLEXPRESS;Initial Catalog=;Persist Security Info=True;User ID=;Password=");
         SqlCommand cmd = new SqlCommand("select * from [UserLogin] where UserName=@UserName and PassWord=@PassWord", con);
         cmd.Parameters.AddWithValue("@UserName", TextBox1.Text);
         cmd.Parameters.AddWithValue("@PassWord", TextBox2.Text);
