@@ -21,7 +21,7 @@ using System.Web.UI.HtmlControls;
 
 public partial class Antibiotic_Default3 : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=3F-54-94\SQLEXPRESS;Initial Catalog=Antibiotic;Persist Security Info=True;User ID=sa;Password=1234");
+    SqlConnection con = new SqlConnection(@"Data Source=\SQLEXPRESS;Initial Catalog=;Persist Security Info=True;User ID=;Password=");
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!Page.IsPostBack)
