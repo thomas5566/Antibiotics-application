@@ -21,7 +21,7 @@ using System.Web.UI.HtmlControls;
 
 public partial class Antibiotic_Certification_Page : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=3F-54-94\SQLEXPRESS;Initial Catalog=Antibiotic;Persist Security Info=True;User ID=sa;Password=1234");
+    SqlConnection con = new SqlConnection(@"");
 
     protected void Page_Load(object sender, EventArgs e)
     {
